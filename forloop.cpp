@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int n = 3;
-    for (int i = 0; i < n; n++) // Use i++ to increment the loop variable
+    for (int i = 0; i < n; i++) // Use i++ to increment the loop variable
     {
         cout << "HELLO WORLD" << endl;
     }
