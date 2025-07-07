@@ -1,11 +1,22 @@
 #include<iostream>
 using namespace std;
-int main(){ 
-    int i ;
-    for ( i = 19; i <= 190; i= i + 19) // Increment by 19 to print multiples of 19
-    // Use i++ to increment the loop variable
-    // This loop will print multiples of 19 from 19 to 190
+int main(){
+    //Method 1: Using a for loop with modulus operator
+//     int i ;
+//     for (i = 19 ; i <= 190; i++)
+//     {
+//         if (i % 19 ==0)
+//         cout << i<<"\t";
+//     }
+//     return 0;
+// }
+
+    //Method 2: Using a for loop with increment
+
+    int i;
+    for (i = 19 ; i <= 190; i = i + 19)
     {
-       cout << i << endl;    
+        cout << i << "\t";
     }
-}
+    return 0;
+}   
