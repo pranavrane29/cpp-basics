@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n = 3;
-    for (int i = 0; i < n; i++) // Use i++ to increment the loop variable
+    int n [5];
+    for (int i = 0; i < 5; i++) // Use i++ to increment the loop variable
     {
         cout << "HELLO WORLD" << endl;
     }
