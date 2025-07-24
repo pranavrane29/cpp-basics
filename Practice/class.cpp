@@ -17,7 +17,7 @@ class Students{
        }
 
        int displaydata(){
-            cout << "Student id and his Name is -"<<id << endl << name;
+            cout << "Student id and his Name is -"<< id << endl << name;
        }
     
 };
@@ -27,7 +27,7 @@ class Students{
 
         s1.getdata();
         s2.getdata();
-        s3.getdata();
+        s3.getdata(); 
 
         s1.displaydata();
         s2.displaydata();
