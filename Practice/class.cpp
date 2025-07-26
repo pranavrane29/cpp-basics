@@ -4,16 +4,13 @@ using namespace std;
 class Students{
     private:
         int id;
-        char name[20];
+        string name;
 
     public:
         int getdata(){
-            cout<<"Enter Student id - ";
-            cin>>id;
+           cout << "Enter Your id and name"<< endl;
+           cin >> id >> name;
 
-            cout<<"Enter Student name - ";
-            cin>>name;
- 
        }
 
        int displaydata(){

@@ -11,12 +11,11 @@ class Students{
     string name;
 
 public :
-    void displaydata();
-    void getdata(){
+ void displaydata();
+void getdata(){
         cout<< "Enter Your ID and NAME -"<< endl;
         cin>> id >> name ;
-    }
-    
+}
 };
 
     void Students::displaydata(){
