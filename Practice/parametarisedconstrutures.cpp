@@ -8,20 +8,28 @@ private:
     string student_name;
 public:
     students(int id , string name){
-        id = student_id;
-        name = student_name;
+       student_id = id;
+       student_name = name;
     }
     void display(){
         cout << "Student ID and Name is -" <<endl;
-        cout << id << endl ;
-        cout << name << endl ;
+        cout << student_id << endl ;
+        cout << student_name << endl ;
     }
 };
 
-students::students(/* args */)
-{
-}
+int main (){
+    students student1(1,"Laadu");
+    students student2(2,"Jadu");
+    students student3(3,"Kaju");
+    students student4(4,"Badam");
+    students student5(5,"Pista");
+    
+    student1.display();
+    student2.display();
+    student3.display();
+    student4.display();
+    student5.display();
 
-students::~students()
-{
+  return 0;
 }
